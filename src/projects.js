@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Col from 'react-bootstrap/Col';
 import { ProjectHolder, ProjectTitle, ProjectImage, TextBox } from './layout';
+import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 import jornalapp from './assets/jornalapp.png';
-function Projects({ ...props }) {
+import barber from './assets/berber.png';
+
+function Projects() {
+	const parallax = useRef('parallax');
 	return (
 		<Col md="7" className="p-0">
-			<ProjectHolder>
+			<ProjectHolder currentColor="#8be9fd" className="sticky-top">
 				<div>
 					<ProjectTitle>
 						<h2>JornalApp</h2>
@@ -19,6 +23,7 @@ function Projects({ ...props }) {
 						<span class="badge badge-light">HTML</span>
 						<span class="badge badge-light">CSS</span>
 						<span class="badge badge-light">Rspec</span>
+
 						<p>
 							This project, shows to news reporters all occurences
 							that are happening in their city or area of
@@ -38,35 +43,119 @@ function Projects({ ...props }) {
 					</TextBox>
 				</div>
 			</ProjectHolder>
-			<ProjectHolder>
+
+			<ProjectHolder currentColor="#50fa7b" className="sticky-top">
 				<div>
 					<ProjectTitle>
-						<h2>JornalApp</h2>
+						<h2>Barber Booking</h2>
 					</ProjectTitle>
+
 					<ProjectImage>
-						<img src={jornalapp} alt="JornalApp Project" />
+						<img src={barber} alt="Barber Project" />
 					</ProjectImage>
 					<TextBox>
-						<span class="badge badge-light">Ruby</span>
-						<span class="badge badge-light">Ruby on Rails</span>
-						<span class="badge badge-light">HTML</span>
+						<span class="badge badge-light">React</span>
+						<span class="badge badge-light">Javascript</span>
+						<span class="badge badge-light">React-Redux</span>
 						<span class="badge badge-light">CSS</span>
+						<span class="badge badge-light">Rails</span>
 						<span class="badge badge-light">Rspec</span>
 						<p>
-							This project, shows to news reporters all occurences
-							that are happening in their city or area of
-							interest.Real-time push notifications are possible
-							too
+							This PWA (Progressive Web App), let's users book a
+							time and a date with a barber.
 						</p>
 						<p>
-							This project is currently being used by reporters of
-							the biggest news stations: TVI, CMTV and SIC.
+							This project Back-end is Ruby and the frontend is
+							React
 						</p>
 						<a
-							href="https://serene-island-45222.herokuapp.com/"
+							href="https://antoniobarberapi.herokuapp.com/"
 							className="btn btn-outline-dark"
 						>
 							Check Live Demo
+						</a>
+						<a
+							href="https://antoniobarberapi.herokuapp.com/"
+							className="btn btn-outline-dark"
+						>
+							Check it on github
+						</a>
+					</TextBox>
+				</div>
+			</ProjectHolder>
+
+			<ProjectHolder currentColor="#50fa7b" className="sticky-top">
+				<div>
+					<ProjectTitle>
+						<h2>NF Office</h2>
+					</ProjectTitle>
+
+					<ProjectImage>
+						<img src={barber} alt="Barber Project" />
+					</ProjectImage>
+					<TextBox>
+						<span class="badge badge-light">React</span>
+						<span class="badge badge-light">Javascript</span>
+						<span class="badge badge-light">React-Redux</span>
+						<span class="badge badge-light">Ruby</span>
+						<span class="badge badge-light">Rails</span>
+						<span class="badge badge-light">Rspec</span>
+						<p>
+							This Web App manages clients, contracts and time
+							that each architect spends on a project. It also
+							sends facebook-style notifications for the admins.
+							Shows statistics too.
+						</p>
+						<p>
+							This project Back-end is Ruby and the frontend is
+							React
+						</p>
+						<a
+							href="https://at-storeage.herokuapp.com/"
+							className="btn btn-outline-dark"
+						>
+							Check Live Demo
+						</a>
+						<a
+							href="https://antoniobarberapi.herokuapp.com/"
+							className="btn btn-outline-dark"
+						>
+							Check it on github
+						</a>
+					</TextBox>
+				</div>
+			</ProjectHolder>
+			<ProjectHolder currentColor="#50fa7b" className="sticky-top">
+				<div>
+					<ProjectTitle>
+						<h2>Topoleo Simple Website</h2>
+					</ProjectTitle>
+
+					<ProjectImage>
+						<img src={barber} alt="Barber Project" />
+					</ProjectImage>
+					<TextBox>
+						<span class="badge badge-light">React</span>
+						<span class="badge badge-light">Javascript</span>
+						<span class="badge badge-light">CSS</span>
+						<span class="badge badge-light">HTML</span>
+						<p>
+							This is a company PWA Website. The design was based
+							in a previous wordpress website that they wish to
+							mantain.
+						</p>
+
+						<a
+							href="https://topoleo.com/"
+							className="btn btn-outline-dark"
+						>
+							Check Live Demo
+						</a>
+						<a
+							href="https://github.com/trox115/Topoleo"
+							className="btn btn-outline-dark"
+						>
+							Check it on github
 						</a>
 					</TextBox>
 				</div>

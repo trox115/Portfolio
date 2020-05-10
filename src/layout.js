@@ -61,11 +61,11 @@ export const TerminalText = styled.div`
 		}
 	}
 `;
-
+const color = ({ currentColor }) => currentColor;
 export const ProjectHolder = styled.div`
 	 {
 		min-height: 100vh;
-		background-color: #ffb86c;
+		background-color: ${color};
 		display: flex;
 		align-items: center;
 	}
