@@ -68,6 +68,7 @@ export const ProjectHolder = styled.div`
 		background-color: ${color};
 		display: flex;
 		align-items: center;
+		padding-bottom: 30px;
 	}
 `;
 

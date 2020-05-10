@@ -4,6 +4,7 @@ import { ProjectHolder, ProjectTitle, ProjectImage, TextBox } from './layout';
 import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons';
 import jornalapp from './assets/jornalapp.png';
 import barber from './assets/berber.png';
+import topoleo from './assets/topoleo.png';
 
 function Projects() {
 	const parallax = useRef('parallax');
@@ -84,6 +85,42 @@ function Projects() {
 				</div>
 			</ProjectHolder>
 
+			<ProjectHolder currentColor="#ff5555" className="sticky-top">
+				<div>
+					<ProjectTitle>
+						<h2>Topoleo Simple Website</h2>
+					</ProjectTitle>
+
+					<ProjectImage>
+						<img src={topoleo} alt="Barber Project" />
+					</ProjectImage>
+					<TextBox>
+						<span class="badge badge-light">React</span>
+						<span class="badge badge-light">Javascript</span>
+						<span class="badge badge-light">CSS</span>
+						<span class="badge badge-light">HTML</span>
+						<p>
+							This is a company PWA Website. The design was based
+							in a previous wordpress website that they wish to
+							mantain.
+						</p>
+
+						<a
+							href="https://topoleo.com/"
+							className="btn btn-outline-dark"
+						>
+							Check Live Demo
+						</a>
+						<a
+							href="https://github.com/trox115/Topoleo"
+							className="btn btn-outline-dark"
+						>
+							Check it on github
+						</a>
+					</TextBox>
+				</div>
+			</ProjectHolder>
+
 			<ProjectHolder currentColor="#50fa7b" className="sticky-top">
 				<div>
 					<ProjectTitle>
@@ -118,41 +155,6 @@ function Projects() {
 						</a>
 						<a
 							href="https://antoniobarberapi.herokuapp.com/"
-							className="btn btn-outline-dark"
-						>
-							Check it on github
-						</a>
-					</TextBox>
-				</div>
-			</ProjectHolder>
-			<ProjectHolder currentColor="#50fa7b" className="sticky-top">
-				<div>
-					<ProjectTitle>
-						<h2>Topoleo Simple Website</h2>
-					</ProjectTitle>
-
-					<ProjectImage>
-						<img src={barber} alt="Barber Project" />
-					</ProjectImage>
-					<TextBox>
-						<span class="badge badge-light">React</span>
-						<span class="badge badge-light">Javascript</span>
-						<span class="badge badge-light">CSS</span>
-						<span class="badge badge-light">HTML</span>
-						<p>
-							This is a company PWA Website. The design was based
-							in a previous wordpress website that they wish to
-							mantain.
-						</p>
-
-						<a
-							href="https://topoleo.com/"
-							className="btn btn-outline-dark"
-						>
-							Check Live Demo
-						</a>
-						<a
-							href="https://github.com/trox115/Topoleo"
 							className="btn btn-outline-dark"
 						>
 							Check it on github
