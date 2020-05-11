@@ -1,7 +1,7 @@
 import React from 'react';
 import Col from 'react-bootrap/Col';
 import Row from 'react-bootrap/Row';
-import Col from 'react-bootrap/Col';
+import Container from 'react-bootrap/Container';
 
 function Footer({ ...props }) {
   return (

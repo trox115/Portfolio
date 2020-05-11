@@ -14,7 +14,7 @@ import minimize from './assets/minimize.png';
 
 function SideBar({ ...props }) {
   function setVisible() {
-    let element = document.getElementsByClassName(
+    const element = document.getElementsByClassName(
       'invisible',
     );
 
