@@ -85,15 +85,27 @@ function SideBar({ ...props }) {
               </p>
               <p className="response invisible">
                 [&quot;
-                <a href="mailto:tofernandes67@gmail.com">
+                <a
+                  href="mailto:tofernandes67@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   tofernandes67@gmail.com&quot;
                 </a>
                 , &quot;
-                <a href="https://www.linkedin.com/in/ant%C3%B3nio-fernandes-ba5961143/">
+                <a
+                  href="www.linkedin.com/in/antoniofernandes67"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Linkedin
                 </a>
                 &quot;, &quot;
-                <a href="https://github.com/trox115">
+                <a
+                  href="https://github.com/trox115"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub
                 </a>
                 &quot;]
@@ -137,7 +149,7 @@ function SideBar({ ...props }) {
                 </Typist>
               </p>
               <p className="response invisible">
-                [&quot;Developping&quot;,&quot;Soccer&quot;,&quot;Play
+                [&quot;Developing&quot;,&quot;Soccer&quot;,&quot;Play
                 With Dog&quot;]
               </p>
             </TerminalText>
