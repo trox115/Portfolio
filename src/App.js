@@ -17,7 +17,7 @@ function App() {
   });
   return (
     <animated.div style={fade}>
-      <Container fluid={true}>
+      <Container fluid>
         <Row>
           <Sidebar />
           <Projects />

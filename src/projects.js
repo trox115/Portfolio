@@ -5,13 +5,7 @@ import {
   ProjectTitle,
   ProjectImage,
   TextBox,
-  TextBox2,
-  Publications,
 } from './layout';
-import {
-  Parallax,
-  ParallaxLayer,
-} from 'react-spring/renderprops-addons';
 import jornalapp from './assets/jornalapp.png';
 import barber from './assets/berber.png';
 import topoleo from './assets/topoleo.png';
@@ -33,13 +27,13 @@ function Projects() {
             <img src={jornalapp} alt="JornalApp Project" />
           </ProjectImage>
           <TextBox>
-            <span class="badge badge-light">Ruby</span>
-            <span class="badge badge-light">
+            <span className="badge badge-light">Ruby</span>
+            <span className="badge badge-light">
               Ruby on Rails
             </span>
-            <span class="badge badge-light">HTML</span>
-            <span class="badge badge-light">CSS</span>
-            <span class="badge badge-light">Rspec</span>
+            <span className="badge badge-light">HTML</span>
+            <span className="badge badge-light">CSS</span>
+            <span className="badge badge-light">Rspec</span>
 
             <p>
               This project, shows to news reporters all
@@ -75,16 +69,16 @@ function Projects() {
             <img src={barber} alt="Barber Project" />
           </ProjectImage>
           <TextBox>
-            <span class="badge badge-light">React</span>
-            <span class="badge badge-light">
+            <span className="badge badge-light">React</span>
+            <span className="badge badge-light">
               Javascript
             </span>
-            <span class="badge badge-light">
+            <span className="badge badge-light">
               React-Redux
             </span>
-            <span class="badge badge-light">CSS</span>
-            <span class="badge badge-light">Rails</span>
-            <span class="badge badge-light">Rspec</span>
+            <span className="badge badge-light">CSS</span>
+            <span className="badge badge-light">Rails</span>
+            <span className="badge badge-light">Rspec</span>
             <p>
               This PWA (Progressive Web App), let's users
               book a time and a date with a barber.
@@ -122,12 +116,12 @@ function Projects() {
             <img src={topoleo} alt="Barber Project" />
           </ProjectImage>
           <TextBox>
-            <span class="badge badge-light">React</span>
-            <span class="badge badge-light">
+            <span className="badge badge-light">React</span>
+            <span className="badge badge-light">
               Javascript
             </span>
-            <span class="badge badge-light">CSS</span>
-            <span class="badge badge-light">HTML</span>
+            <span className="badge badge-light">CSS</span>
+            <span className="badge badge-light">HTML</span>
             <p>
               This is a company PWA Website. The design was
               based in a previous wordpress website that
@@ -163,16 +157,16 @@ function Projects() {
             <img src={bookstore} alt="Bookstore Project" />
           </ProjectImage>
           <TextBox>
-            <span class="badge badge-light">React</span>
-            <span class="badge badge-light">
+            <span className="badge badge-light">React</span>
+            <span className="badge badge-light">
               React-Redux
             </span>
-            <span class="badge badge-light">
+            <span className="badge badge-light">
               Javascript
             </span>
-            <span class="badge badge-light">Ruby</span>
-            <span class="badge badge-light">Rails</span>
-            <span class="badge badge-light">Rspec</span>
+            <span className="badge badge-light">Ruby</span>
+            <span className="badge badge-light">Rails</span>
+            <span className="badge badge-light">Rspec</span>
             <p>
               This project is a bookstore CMS, user can add,
               edit or update reading progress of the books.

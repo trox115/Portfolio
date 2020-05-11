@@ -57,7 +57,8 @@ function SideBar({ ...props }) {
                   }}
                   onTypingDone={setVisible}
                 >
-                  <span>&gt;</span>Antonio.location
+                  <span>&gt;</span>
+                  Antonio.location
                 </Typist>
               </p>
 
@@ -77,7 +78,8 @@ function SideBar({ ...props }) {
                   }}
                   onTypingDone={setVisible}
                 >
-                  <span>&gt;</span>Antonio.contact
+                  <span>&gt;</span>
+                  Antonio.contact
                 </Typist>
               </p>
               <p className="response invisible">
@@ -107,7 +109,8 @@ function SideBar({ ...props }) {
                   }}
                   onTypingDone={setVisible}
                 >
-                  <span>&gt;</span>Antonio.resume
+                  <span>&gt;</span>
+                  Antonio.resume
                 </Typist>
               </p>
 
@@ -126,7 +129,8 @@ function SideBar({ ...props }) {
                   }}
                   onTypingDone={setVisible}
                 >
-                  <span>&gt;</span>Antonio.hobbies
+                  <span>&gt;</span>
+                  Antonio.hobbies
                 </Typist>
               </p>
               <p className="response invisible">
@@ -145,13 +149,14 @@ function SideBar({ ...props }) {
                     hideWhenDoneDelay: 1,
                   }}
                 >
-                  <span>&gt;</span>Antonio.skils
+                  <span>&gt;</span>
+                  Antonio.skils
                 </Typist>
               </p>
 
               <p className="response invisible">
-                ['Ruby','Javascript','React','React-Redux','HTML5',
-                'CSS3']
+                [&quot;Ruby&quot;,&quot;Javascript&quot;,&quot;React&quot;,&quot;React-Redux&quot;,&quot;HTML5&quot;,
+                &quot;CSS3&quot;]
               </p>
             </TerminalText>
 
