@@ -103,4 +103,43 @@ export const TextBox = styled.div`
 	span {
 		margin-right: 5px;
 	}
+	a {
+		text-align: justify;
+		margin-left: 3%;
+		font-family: 'Montserrat', sans-serif;
+	}
+`;
+export const TextBox2 = styled.div`
+	 {
+		width: 100%;
+
+		text-align: center;
+		margin-top: -10px;
+		p {
+			text-align: justify;
+			margin-left: 3%;
+			font-family: 'Montserrat', sans-serif;
+		}
+		span {
+			margin-right: 5px;
+		}
+		a {
+			text-align: center;
+			margin-left: 3%;
+			font-family: 'Montserrat', sans-serif;
+		}
+	}
+`;
+
+export const Publications = styled.div`
+	display: block;
+	text-align: center;
+	a {
+		min-width: 100%;
+		border-bottom: 1px solid gray;
+		font-family: 'Balsamiq Sans', cursive;
+
+		color: #2e3436ff;
+		font-size: 1.5rem;
+	}
 `;

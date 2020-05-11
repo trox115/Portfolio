@@ -27,122 +27,134 @@ function SideBar({ ...props }) {
 
 	return (
 		<Col md="5">
-			<Title className="sticky-top">
-				<h2>Developer.</h2>
-				<h2>Thinker.</h2>
-				<h2>Animal Lover.</h2>
-			</Title>
-			<animated.div style={fade} className="sticky-top">
-				<Console>
-					<ConsoleHeader>
-						<img src={minimize} alt="teminalMinimize" />
-						<img src={maximize} alt="teminalMaximize" />
-						<img src={xmark} alt="teminalX" />
-					</ConsoleHeader>
-					<TerminalText>
-						<p>
-							<Typist
-								avgTypingDelay={250}
-								cursor={{
-									hideWhenDone: true,
-									hideWhenDoneDelay: 1,
-								}}
-								onTypingDone={setVisible}
-							>
-								<span>></span>Antonio.location
-							</Typist>
-						</p>
+			<div className="sticky-top">
+				<Title>
+					<h2>Developer.</h2>
+					<h2>Thinker.</h2>
+					<h2>Animal Lover.</h2>
+				</Title>
+				<animated.div style={fade}>
+					<Console>
+						<ConsoleHeader>
+							<img src={minimize} alt="teminalMinimize" />
+							<img src={maximize} alt="teminalMaximize" />
+							<img src={xmark} alt="teminalX" />
+						</ConsoleHeader>
+						<TerminalText>
+							<p>
+								<Typist
+									avgTypingDelay={250}
+									cursor={{
+										hideWhenDone: true,
+										hideWhenDoneDelay: 1,
+									}}
+									onTypingDone={setVisible}
+								>
+									<span>></span>Antonio.location
+								</Typist>
+							</p>
 
-						<p className="response invisible">
-							{' '}
-							"Bragança, Portugal"
-						</p>
-					</TerminalText>
-					<TerminalText className="invisible">
-						<p>
-							<Typist
-								startDelay={5000}
-								avgTypingDelay={250}
-								cursor={{
-									hideWhenDone: true,
-									hideWhenDoneDelay: 1,
-								}}
-								onTypingDone={setVisible}
-							>
-								<span>></span>Antonio.contact
-							</Typist>
-						</p>
-						<p className="response invisible">
-							["tofernandes67@gmail.com", "Linkedin", "GitHub"]
-						</p>
-					</TerminalText>
-					<TerminalText className="invisible">
-						<p>
-							<Typist
-								startDelay={10000}
-								avgTypingDelay={250}
-								cursor={{
-									hideWhenDone: true,
-									hideWhenDoneDelay: 1,
-								}}
-								onTypingDone={setVisible}
-							>
-								<span>></span>Antonio.resume
-							</Typist>
-						</p>
+							<p className="response invisible">
+								{' '}
+								"Bragança, Portugal"
+							</p>
+						</TerminalText>
+						<TerminalText className="invisible">
+							<p>
+								<Typist
+									startDelay={5000}
+									avgTypingDelay={250}
+									cursor={{
+										hideWhenDone: true,
+										hideWhenDoneDelay: 1,
+									}}
+									onTypingDone={setVisible}
+								>
+									<span>></span>Antonio.contact
+								</Typist>
+							</p>
+							<p className="response invisible">
+								["
+								<a href="mailto:tofernandes67@gmail.com">
+									tofernandes67@gmail.com"
+								</a>
+								, "
+								<a href="https://www.linkedin.com/in/ant%C3%B3nio-fernandes-ba5961143/">
+									Linkedin
+								</a>
+								", "
+								<a href="https://github.com/trox115">GitHub</a>
+								"]
+							</p>
+						</TerminalText>
+						<TerminalText className="invisible">
+							<p>
+								<Typist
+									startDelay={10000}
+									avgTypingDelay={250}
+									cursor={{
+										hideWhenDone: true,
+										hideWhenDoneDelay: 1,
+									}}
+									onTypingDone={setVisible}
+								>
+									<span>></span>Antonio.resume
+								</Typist>
+							</p>
 
-						<p className="response invisible">
-							"AntonioFernandes.pdf"
-						</p>
-					</TerminalText>
-					<TerminalText className="invisible">
-						<p>
-							<Typist
-								startDelay={15000}
-								avgTypingDelay={250}
-								cursor={{
-									hideWhenDone: true,
-									hideWhenDoneDelay: 1,
-								}}
-								onTypingDone={setVisible}
-							>
-								<span>></span>Antonio.hobbies
-							</Typist>
-						</p>
-						<p className="response invisible">
-							['Developping','Soccer','Play With Dog']
-						</p>
-					</TerminalText>
-					<TerminalText className="invisible">
-						<p>
-							<Typist
-								startDelay={20000}
-								avgTypingDelay={250}
-								onTypingDone={setVisible}
-								cursor={{
-									hideWhenDone: true,
-									hideWhenDoneDelay: 1,
-								}}
-							>
-								<span>></span>Antonio.skils
-							</Typist>
-						</p>
+							<p className="response invisible">
+								"AntonioFernandes.pdf"
+							</p>
+						</TerminalText>
+						<TerminalText className="invisible">
+							<p>
+								<Typist
+									startDelay={15000}
+									avgTypingDelay={250}
+									cursor={{
+										hideWhenDone: true,
+										hideWhenDoneDelay: 1,
+									}}
+									onTypingDone={setVisible}
+								>
+									<span>></span>Antonio.hobbies
+								</Typist>
+							</p>
+							<p className="response invisible">
+								['Developping','Soccer','Play With Dog']
+							</p>
+						</TerminalText>
+						<TerminalText className="invisible">
+							<p>
+								<Typist
+									startDelay={20000}
+									avgTypingDelay={250}
+									onTypingDone={setVisible}
+									cursor={{
+										hideWhenDone: true,
+										hideWhenDoneDelay: 1,
+									}}
+								>
+									<span>></span>Antonio.skils
+								</Typist>
+							</p>
 
-						<p className="response invisible">
-							['Ruby','Javascript','React','React-Redux','HTML5',
-							'CSS3']
-						</p>
-					</TerminalText>
+							<p className="response invisible">
+								['Ruby','Javascript','React','React-Redux','HTML5',
+								'CSS3']
+							</p>
+						</TerminalText>
 
-					<TerminalText className="invisible">
-						<p>
-							<Typist startDelay={21000} avgTypingDelay={250}>
-								<span>></span>
-							</Typist>
-						</p>
-					</TerminalText>
-				</Console>
-			</animated.div>
+						<TerminalText className="invisible">
+							<p>
+								<Typist startDelay={21000} avgTypingDelay={250}>
+									<span>></span>
+								</Typist>
+							</p>
+						</TerminalText>
+					</Console>
+				</animated.div>
+			</div>
 		</Col>
 	);
 }
