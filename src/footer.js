@@ -6,7 +6,8 @@ import github from './assets/github.png';
 import linkedin from './assets/linkedin.png';
 import twitter from './assets/twitter.png';
 import email from './assets/email.png';
-function Footer({ ...props }) {
+
+function Footer() {
   return (
     <Col md="12" className="p-0">
       <footer className="sticky-top dark">
