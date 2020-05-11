@@ -49,6 +49,7 @@ function Projects() {
               href="https://serene-island-45222.herokuapp.com/"
               className="btn btn-outline-dark"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Check Live Demo
             </a>
@@ -91,7 +92,7 @@ function Projects() {
               href="https://antoniobarberapi.herokuapp.com/"
               className="btn btn-outline-dark"
               target="_blank"
-              target="_blank"
+              rel="noopener noreferrer"
             >
               Check Live Demo
             </a>
@@ -99,7 +100,7 @@ function Projects() {
               href="https://antoniobarberapi.herokuapp.com/"
               className="btn btn-outline-dark"
               target="_blank"
-              target="_blank"
+              rel="noopener noreferrer"
             >
               Check it on github
             </a>
@@ -136,6 +137,7 @@ function Projects() {
               href="https://topoleo.com/"
               className="btn btn-outline-dark"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Check Live Demo
             </a>
@@ -143,6 +145,7 @@ function Projects() {
               href="https://github.com/trox115/Topoleo"
               className="btn btn-outline-dark"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Check it on github
             </a>
@@ -185,6 +188,7 @@ function Projects() {
               href="https://antonioreact-bookstore.herokuapp.com/"
               className="btn btn-outline-dark"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Check Live Demo
             </a>
@@ -192,6 +196,7 @@ function Projects() {
               href="https://github.com/trox115/bookstore"
               className="btn btn-outline-dark"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Check it on github
             </a>
