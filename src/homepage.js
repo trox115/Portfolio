@@ -155,8 +155,9 @@ function SideBar({ ...props }) {
               </p>
 
               <p className="response invisible">
-                [&quot;Ruby&quot;,&quot;Javascript&quot;,&quot;React&quot;,&quot;React-Redux&quot;,&quot;HTML5&quot;,
-                &quot;CSS3&quot;]
+                [&quot;Ruby&quot;,&quot;Javascript&quot;
+                ,&quot;React&quot;,&quot;React-Redux&quot;
+                ,&quot;HTML5&quot;, &quot;CSS3&quot;]
               </p>
             </TerminalText>
 

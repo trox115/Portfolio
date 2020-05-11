@@ -12,7 +12,6 @@ import topoleo from './assets/topoleo.png';
 import bookstore from './assets/bookstore.png';
 
 function Projects() {
-  const parallax = useRef('parallax');
   return (
     <Col md="7" className="p-0">
       <ProjectHolder
@@ -80,8 +79,8 @@ function Projects() {
             <span className="badge badge-light">Rails</span>
             <span className="badge badge-light">Rspec</span>
             <p>
-              This PWA (Progressive Web App), let's users
-              book a time and a date with a barber.
+              This PWA (Progressive Web App), let users book
+              a time and a date with a barber.
             </p>
             <p>
               This project Back-end is Ruby and the frontend
