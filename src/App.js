@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Sidebar from './homepage';
 import Projects from './projects';
+import Footer from './footer';
 
 function App() {
   const fade = useSpring({
@@ -21,6 +22,7 @@ function App() {
         <Row>
           <Sidebar />
           <Projects />
+          <Footer />
         </Row>
       </Container>
     </animated.div>

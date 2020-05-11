@@ -33,3 +33,29 @@ h2 {
 		opacity: 1;
 	}
 }
+
+footer {
+	background-color: #282a36;
+	margin-top: 30px;
+}
+.white {
+	color: white;
+}
+
+.small {
+	font-size: 11px;
+}
+
+.borderb {
+	border-bottom: 1px solid white;
+}
+
+footer a {
+	margin-left: 10px;
+}
+footer a:hover {
+	color: white;
+}
+footer h2 {
+	margin-top: 30px;
+}

@@ -34,7 +34,7 @@ function SideBar({ ...props }) {
 
   return (
     <Col md="5">
-      <div className="sticky-top">
+      <div className="sticky-top dark">
         <Title>
           <h2>Developer.</h2>
           <h2>Thinker.</h2>
