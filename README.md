@@ -28,9 +28,9 @@ Contributions, issues and feature requests are welcome!
 
 Give a star ⭐️ if you like this project!
 
-## Barber App Features
+## Portfolio App Features
 
-To view the live demo click the [link](https://antoniobarberapi.com) and you will be taken to the portfolio page.
+To view the live demo click the [link](https://antoniofernandes.netlify.app/) and you will be taken to the portfolio page.
 
 ![Screenshot](documentation/portfolio.png)
 
@@ -95,10 +95,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-## Acknowledgments
-
-[Murat Korkmaz on Behance](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) inspired the design.
 
 ### License
 
