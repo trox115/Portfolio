@@ -35,15 +35,15 @@ function Projects() {
             <span className="badge badge-light">Rspec</span>
 
             <p>
-              This project, shows to news reporters all
-              occurences that are happening in their city or
-              area of interest.Real-time push notifications
-              are possible too
+              This project shows to news reporters all
+              occurrences that are happening in their city
+              or area of interest. Real-time push
+              notifications are possible too.
             </p>
             <p>
               This project is currently being used by
               reporters of the biggest news stations: TVI,
-              CMTV and SIC.
+              CMTV, and SIC.
             </p>
             <a
               href="https://serene-island-45222.herokuapp.com/"
@@ -79,12 +79,12 @@ function Projects() {
             <span className="badge badge-light">Rails</span>
             <span className="badge badge-light">Rspec</span>
             <p>
-              This PWA (Progressive Web App), let users book
-              a time and a date with a barber.
+              This PWA (Progressive Web App), lets users
+              book a time and a date with a barber.
             </p>
             <p>
               This project Back-end is Ruby and the frontend
-              is React
+              is React.
             </p>
             <a
               href="https://antoniobarberapi.herokuapp.com/"
@@ -123,8 +123,8 @@ function Projects() {
             <span className="badge badge-light">HTML</span>
             <p>
               This is a company PWA Website. The design was
-              based in a previous wordpress website that
-              they wish to mantain.
+              based on a previous WordPress website that
+              they wish to maintain.
             </p>
 
             <a
@@ -168,7 +168,7 @@ function Projects() {
             <span className="badge badge-light">Rspec</span>
             <p>
               This project is a bookstore CMS, user can add,
-              edit or update reading progress of the books.
+              edit, or update reading progress of the books.
             </p>
             <p>
               This project Back-end is Ruby and the frontend

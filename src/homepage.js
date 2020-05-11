@@ -11,6 +11,7 @@ import {
 import xmark from './assets/xmark.png';
 import maximize from './assets/maximize.png';
 import minimize from './assets/minimize.png';
+import cv from './assets/CV.pdf';
 
 function SideBar({ ...props }) {
   function setVisible() {
@@ -34,7 +35,7 @@ function SideBar({ ...props }) {
 
   return (
     <Col md="5">
-      <div className="sticky-top">
+      <div className="sticky-top dark">
         <Title>
           <h2>Developer.</h2>
           <h2>Thinker.</h2>
@@ -115,7 +116,9 @@ function SideBar({ ...props }) {
               </p>
 
               <p className="response invisible">
-                &quot;AntonioFernandes.pdf&quot;
+                <a href={cv}>
+                  &quot;AntonioFernandes.pdf&quot;
+                </a>
               </p>
             </TerminalText>
             <TerminalText className="invisible">
