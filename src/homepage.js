@@ -1,37 +1,19 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Typist from 'react-typist';
-import { useSpring, animated } from 'react-spring';
-import {
-  Title,
-  Console,
-  ConsoleHeader,
-  TerminalText,
-} from './layout';
+import { Title, Console, ConsoleHeader, TerminalText } from './layout';
 import xmark from './assets/xmark.png';
 import maximize from './assets/maximize.png';
 import minimize from './assets/minimize.png';
 import cv from './assets/CV.pdf';
 
 function SideBar({ ...props }) {
-  function setVisible() {
-    const element = document.getElementsByClassName(
-      'invisible',
-    );
+	function setVisible() {
+		let element = document.getElementsByClassName('invisible');
 
-    element[0].classList.remove('invisible');
-    element[0].classList.remove('invisible');
-  }
-  const fade = useSpring({
-    from: {
-      opacity: 0,
-      marginLeft: -1000,
-    },
-    to: {
-      opacity: 1,
-      marginLeft: 0,
-    },
-  });
+		element[0].classList.remove('invisible');
+		element[0].classList.remove('invisible');
+	}
 
   return (
     <Col md="5">
@@ -169,28 +151,22 @@ function SideBar({ ...props }) {
                 </Typist>
               </p>
 
-              <p className="response invisible">
-                [&quot;Ruby&quot;,&quot;Javascript&quot;
-                ,&quot;React&quot;,&quot;React-Redux&quot;
-                ,&quot;HTML5&quot;, &quot;CSS3&quot;]
-              </p>
-            </TerminalText>
+					<p className="response invisible">
+						['Ruby','Javascript','React','React-Redux','HTML5',
+						'CSS3']
+					</p>
+				</TerminalText>
 
-            <TerminalText className="invisible">
-              <p>
-                <Typist
-                  startDelay={21000}
-                  avgTypingDelay={250}
-                >
-                  <span>&gt;</span>
-                </Typist>
-              </p>
-            </TerminalText>
-          </Console>
-        </animated.div>
-      </div>
-    </Col>
-  );
+				<TerminalText className="invisible">
+					<p>
+						<Typist startDelay={21000} avgTypingDelay={250}>
+							<span>></span>
+						</Typist>
+					</p>
+				</TerminalText>
+			</Console>
+		</Col>
+	);
 }
 
 export default SideBar;

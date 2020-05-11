@@ -9,6 +9,7 @@ import Projects from './projects';
 import Footer from './footer';
 
 function App() {
+
   const fade = useSpring({
     from: {
       opacity: 0,

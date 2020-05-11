@@ -1,11 +1,6 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
-import {
-  ProjectHolder,
-  ProjectTitle,
-  ProjectImage,
-  TextBox,
-} from './layout';
+import { ProjectHolder, ProjectTitle, ProjectImage, TextBox } from './layout';
 import jornalapp from './assets/jornalapp.png';
 import barber from './assets/berber.png';
 import topoleo from './assets/topoleo.png';
