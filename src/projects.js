@@ -48,6 +48,7 @@ function Projects() {
             <a
               href="https://serene-island-45222.herokuapp.com/"
               className="btn btn-outline-dark"
+              target="_blank"
             >
               Check Live Demo
             </a>
@@ -89,12 +90,16 @@ function Projects() {
             <a
               href="https://antoniobarberapi.herokuapp.com/"
               className="btn btn-outline-dark"
+              target="_blank"
+              target="_blank"
             >
               Check Live Demo
             </a>
             <a
               href="https://antoniobarberapi.herokuapp.com/"
               className="btn btn-outline-dark"
+              target="_blank"
+              target="_blank"
             >
               Check it on github
             </a>
@@ -130,12 +135,14 @@ function Projects() {
             <a
               href="https://topoleo.com/"
               className="btn btn-outline-dark"
+              target="_blank"
             >
               Check Live Demo
             </a>
             <a
               href="https://github.com/trox115/Topoleo"
               className="btn btn-outline-dark"
+              target="_blank"
             >
               Check it on github
             </a>
@@ -177,12 +184,14 @@ function Projects() {
             <a
               href="https://antonioreact-bookstore.herokuapp.com/"
               className="btn btn-outline-dark"
+              target="_blank"
             >
               Check Live Demo
             </a>
             <a
               href="https://github.com/trox115/bookstore"
               className="btn btn-outline-dark"
+              target="_blank"
             >
               Check it on github
             </a>

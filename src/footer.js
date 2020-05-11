@@ -34,6 +34,7 @@ function Footer() {
               <a
                 className="white small"
                 href="https://medium.com/@tofernandes67/save-time-using-sass-to-create-classes-with-variations-95aaf4101eb8"
+                target="_blank"
               >
                 Save time using SASS to create classes with
                 variations
@@ -42,6 +43,7 @@ function Footer() {
               <a
                 className="white small"
                 href="https://medium.com/@tofernandes67/one-easy-way-to-scrap-a-website-with-rails-f59bc9350a4d"
+                target="_blank"
               >
                 One (easy) way to scrap a website with rails
               </a>
@@ -51,18 +53,30 @@ function Footer() {
                 Get in Touch
               </h2>
 
-              <a href="https://github.com/trox115">
+              <a
+                href="https://github.com/trox115"
+                target="_blank"
+              >
                 <img src={github} alt="github-link" />
               </a>
 
-              <a href="https://www.linkedin.com/in/ant%C3%B3nio-fernandes-ba5961143/">
+              <a
+                href="https://www.linkedin.com/in/antoniofernandes67"
+                target="_blank"
+              >
                 <img src={linkedin} alt="linkedin-link" />
               </a>
 
-              <a href="https://twitter.com/rock_67">
+              <a
+                href="https://twitter.com/rock_67"
+                target="_blank"
+              >
                 <img src={twitter} alt="twitter-link" />
               </a>
-              <a href="mailto:tofernandes67@gmail.com">
+              <a
+                href="mailto:tofernandes67@gmail.com"
+                target="_blank"
+              >
                 <img src={email} alt="email-link" />
               </a>
             </Col>
