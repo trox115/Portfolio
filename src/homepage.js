@@ -1,13 +1,13 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Typist from 'react-typist';
+import { useSpring, animated } from 'react-spring';
 import {
   Title,
   Console,
   ConsoleHeader,
   TerminalText,
 } from './layout';
-import { useSpring, animated } from 'react-spring';
 import xmark from './assets/xmark.png';
 import maximize from './assets/maximize.png';
 import minimize from './assets/minimize.png';
@@ -57,13 +57,13 @@ function SideBar({ ...props }) {
                   }}
                   onTypingDone={setVisible}
                 >
-                  <span>></span>Antonio.location
+                  <span>&gt;</span>Antonio.location
                 </Typist>
               </p>
 
               <p className="response invisible">
                 {' '}
-                "Bragança, Portugal"
+                &quot;Bragança, Portugal&quot;
               </p>
             </TerminalText>
             <TerminalText className="invisible">
@@ -77,23 +77,23 @@ function SideBar({ ...props }) {
                   }}
                   onTypingDone={setVisible}
                 >
-                  <span>></span>Antonio.contact
+                  <span>&gt;</span>Antonio.contact
                 </Typist>
               </p>
               <p className="response invisible">
-                ["
+                [&quot;
                 <a href="mailto:tofernandes67@gmail.com">
-                  tofernandes67@gmail.com"
+                  tofernandes67@gmail.com&quot;
                 </a>
-                , "
+                , &quot;
                 <a href="https://www.linkedin.com/in/ant%C3%B3nio-fernandes-ba5961143/">
                   Linkedin
                 </a>
-                ", "
+                &quot;, &quot;
                 <a href="https://github.com/trox115">
                   GitHub
                 </a>
-                "]
+                &quot;]
               </p>
             </TerminalText>
             <TerminalText className="invisible">
@@ -107,12 +107,12 @@ function SideBar({ ...props }) {
                   }}
                   onTypingDone={setVisible}
                 >
-                  <span>></span>Antonio.resume
+                  <span>&gt;</span>Antonio.resume
                 </Typist>
               </p>
 
               <p className="response invisible">
-                "AntonioFernandes.pdf"
+                &quot;AntonioFernandes.pdf&quot;
               </p>
             </TerminalText>
             <TerminalText className="invisible">
@@ -126,11 +126,12 @@ function SideBar({ ...props }) {
                   }}
                   onTypingDone={setVisible}
                 >
-                  <span>></span>Antonio.hobbies
+                  <span>&gt;</span>Antonio.hobbies
                 </Typist>
               </p>
               <p className="response invisible">
-                ['Developping','Soccer','Play With Dog']
+                [&quot;Developping&quot;,&quot;Soccer&quot;,&quot;Play
+                With Dog&quot;]
               </p>
             </TerminalText>
             <TerminalText className="invisible">
@@ -144,7 +145,7 @@ function SideBar({ ...props }) {
                     hideWhenDoneDelay: 1,
                   }}
                 >
-                  <span>></span>Antonio.skils
+                  <span>&gt;</span>Antonio.skils
                 </Typist>
               </p>
 
@@ -160,7 +161,7 @@ function SideBar({ ...props }) {
                   startDelay={21000}
                   avgTypingDelay={250}
                 >
-                  <span>></span>
+                  <span>&gt;</span>
                 </Typist>
               </p>
             </TerminalText>
