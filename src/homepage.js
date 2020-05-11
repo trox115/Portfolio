@@ -89,7 +89,7 @@ function SideBar({ ...props }) {
                   tofernandes67@gmail.com&quot;
                 </a>
                 , &quot;
-                <a href="https://www.linkedin.com/in/ant%C3%B3nio-fernandes-ba5961143/">
+                <a href="www.linkedin.com/in/antoniofernandes67">
                   Linkedin
                 </a>
                 &quot;, &quot;
@@ -137,7 +137,7 @@ function SideBar({ ...props }) {
                 </Typist>
               </p>
               <p className="response invisible">
-                [&quot;Developping&quot;,&quot;Soccer&quot;,&quot;Play
+                [&quot;Developing&quot;,&quot;Soccer&quot;,&quot;Play
                 With Dog&quot;]
               </p>
             </TerminalText>
