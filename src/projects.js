@@ -10,6 +10,7 @@ import jornalapp from './assets/jornalapp.png';
 import barber from './assets/berber.png';
 import topoleo from './assets/topoleo.png';
 import bookstore from './assets/bookstore.png';
+import fakebook from './assets/fakebook.png';
 
 function Projects() {
   return (
@@ -97,7 +98,7 @@ function Projects() {
               Check Live Demo
             </a>
             <a
-              href="https://antoniobarberapi.herokuapp.com/"
+              href="https://github.com/trox115/booking"
               className="btn btn-outline-dark"
               target="_blank"
               rel="noopener noreferrer"
@@ -194,6 +195,53 @@ function Projects() {
             </a>
             <a
               href="https://github.com/trox115/bookstore"
+              className="btn btn-outline-dark"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check it on github
+            </a>
+          </TextBox>
+        </div>
+      </ProjectHolder>
+      <ProjectHolder
+        currentColor="#8be9fd"
+        className="sticky-top"
+      >
+        <div>
+          <ProjectTitle>
+            <h2>FakeBook</h2>
+          </ProjectTitle>
+
+          <ProjectImage>
+            <img src={fakebook} alt="Bookstore Project" />
+          </ProjectImage>
+          <TextBox>
+            <span className="badge badge-light">HTML</span>
+            <span className="badge badge-light">CSS</span>
+
+            <span className="badge badge-light">Ruby</span>
+            <span className="badge badge-light">Rails</span>
+            <span className="badge badge-light">Rspec</span>
+            <p>
+              This project is a facebook clone. User can ask
+              and accept friendship, make comments and, give
+              like
+            </p>
+            <p>
+              This project Back-end has been made with Ruby
+              on Rails.
+            </p>
+            <a
+              href="https://frozen-everglades-48914.herokuapp.com/"
+              className="btn btn-outline-dark"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check Live Demo
+            </a>
+            <a
+              href="https://github.com/trox115/Fakebook"
               className="btn btn-outline-dark"
               target="_blank"
               rel="noopener noreferrer"

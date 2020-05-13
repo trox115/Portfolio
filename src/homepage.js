@@ -94,7 +94,7 @@ function SideBar({ ...props }) {
                 </a>
                 , &quot;
                 <a
-                  href="www.linkedin.com/in/antoniofernandes67"
+                  href="https://www.linkedin.com/in/antoniofernandes07"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -107,6 +107,22 @@ function SideBar({ ...props }) {
                   rel="noopener noreferrer"
                 >
                   GitHub
+                </a>
+                &quot; , &quot;
+                <a
+                  href="https://angel.co/u/antonio-fernandes-12"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  AngeList
+                </a>
+                &quot; , &quot;
+                <a
+                  href="https://twitter.com/Rock_67"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Twitter
                 </a>
                 &quot;]
               </p>
@@ -128,7 +144,11 @@ function SideBar({ ...props }) {
               </p>
 
               <p className="response invisible">
-                <a href={cv}>
+                <a
+                  href={cv}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   &quot;AntonioFernandes.pdf&quot;
                 </a>
               </p>
