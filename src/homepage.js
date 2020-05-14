@@ -185,7 +185,7 @@ function SideBar({ ...props }) {
                   }}
                 >
                   <span>&gt;</span>
-                  Antonio.skils
+                  Antonio.skills
                 </Typist>
               </p>
 
