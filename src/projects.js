@@ -224,9 +224,7 @@ function Projects() {
             <span className="badge badge-light">Rails</span>
             <span className="badge badge-light">Rspec</span>
             <p>
-              This project is a facebook clone. User can ask
-              and accept friendship, make comments and, give
-              like
+              This project is a Facebook clone. Users can ask and accept friendships, make comments, and give likes.
             </p>
             <p>
               This project Back-end has been made with Ruby
