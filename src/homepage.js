@@ -98,7 +98,7 @@ function SideBar({ ...props }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Linkedin
+                  LinkedIn
                 </a>
                 &quot;, &quot;
                 <a
@@ -114,7 +114,7 @@ function SideBar({ ...props }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  AngeList
+                  AngelList
                 </a>
                 &quot; , &quot;
                 <a
@@ -190,7 +190,7 @@ function SideBar({ ...props }) {
               </p>
 
               <p className="response invisible">
-                [&quot;Ruby&quot;,&quot;Javascript&quot;
+                [&quot;Ruby&quot;,&quot;JavaScript&quot;
                 ,&quot;React&quot;,&quot;React-Redux&quot;
                 ,&quot;HTML5&quot;, &quot;CSS3&quot;]
               </p>
