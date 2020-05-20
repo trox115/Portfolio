@@ -11,6 +11,7 @@ import barber from './assets/berber.png';
 import topoleo from './assets/topoleo.png';
 import bookstore from './assets/bookstore.png';
 import fakebook from './assets/fakebook.png';
+import battleship from './assets/battleship.png';
 
 function Projects() {
   return (
@@ -73,7 +74,7 @@ function Projects() {
           <TextBox>
             <span className="badge badge-light">React</span>
             <span className="badge badge-light">
-              Javascript
+              JavaScript
             </span>
             <span className="badge badge-light">
               React-Redux
@@ -124,7 +125,7 @@ function Projects() {
           <TextBox>
             <span className="badge badge-light">React</span>
             <span className="badge badge-light">
-              Javascript
+              JavaScript
             </span>
             <span className="badge badge-light">CSS</span>
             <span className="badge badge-light">HTML</span>
@@ -172,7 +173,7 @@ function Projects() {
               React-Redux
             </span>
             <span className="badge badge-light">
-              Javascript
+              JavaScript
             </span>
             <span className="badge badge-light">Ruby</span>
             <span className="badge badge-light">Rails</span>
@@ -224,7 +225,9 @@ function Projects() {
             <span className="badge badge-light">Rails</span>
             <span className="badge badge-light">Rspec</span>
             <p>
-              This project is a Facebook clone. Users can ask and accept friendships, make comments, and give likes.
+              This project is a Facebook clone. Users can
+              ask and accept friendships, make comments, and
+              give likes.
             </p>
             <p>
               This project Back-end has been made with Ruby
@@ -240,6 +243,52 @@ function Projects() {
             </a>
             <a
               href="https://github.com/trox115/Fakebook"
+              className="btn btn-outline-dark"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check it on github
+            </a>
+          </TextBox>
+        </div>
+      </ProjectHolder>
+      <ProjectHolder
+        currentColor="#ff5555"
+        className="sticky-top"
+      >
+        <div>
+          <ProjectTitle>
+            <h2>BattleShip</h2>
+          </ProjectTitle>
+
+          <ProjectImage>
+            <img
+              src={battleship}
+              alt="Battle Ship Project"
+            />
+          </ProjectImage>
+          <TextBox>
+            <span className="badge badge-light">
+              JavaScript
+            </span>
+            <span className="badge badge-light">
+              GitHub
+            </span>
+            <p>
+              This project is a BattleShip game, user can
+              play against the computer.
+            </p>
+            <p>This project was made using JavaScript.</p>
+            <a
+              href="https://carloshdelreal.github.io/battleship/dist/index.html"
+              className="btn btn-outline-dark"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check Live Demo
+            </a>
+            <a
+              href="https://github.com/trox115/battleship"
               className="btn btn-outline-dark"
               target="_blank"
               rel="noopener noreferrer"
