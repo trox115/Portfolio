@@ -1,6 +1,7 @@
 # Portfolio
 
 This portfolio is for personal use. Built using react.
+[![Is <username> available for hire?](http://hireable.me/<username>)](http://hireable.me/p/<username>)
 
 ## Built With
 
