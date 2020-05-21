@@ -94,7 +94,7 @@ function SideBar({ ...props }) {
                 </a>
                 , &quot;
                 <a
-                  href="www.linkedin.com/in/antonioMfernandes"
+                  href="https://www.linkedin.com/in/antonioMfernandes"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

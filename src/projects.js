@@ -16,6 +16,7 @@ import battleship from './assets/battleship.png';
 function Projects() {
   return (
     <Col md="7" className="p-0">
+      {/*
       <ProjectHolder
         currentColor="#8be9fd"
         className="sticky-top"
@@ -58,7 +59,7 @@ function Projects() {
           </TextBox>
         </div>
       </ProjectHolder>
-
+*/}
       <ProjectHolder
         currentColor="#ff5555"
         className="sticky-top"
