@@ -1,17 +1,12 @@
-import React from 'react';
-import Col from 'react-bootstrap/Col';
-import {
-  ProjectHolder,
-  ProjectTitle,
-  ProjectImage,
-  TextBox,
-} from './layout';
-import jornalapp from './assets/jornalapp.png';
-import barber from './assets/berber.png';
-import topoleo from './assets/topoleo.png';
-import bookstore from './assets/bookstore.png';
-import fakebook from './assets/fakebook.png';
-import battleship from './assets/battleship.png';
+import React from "react";
+import Col from "react-bootstrap/Col";
+import { ProjectHolder, ProjectTitle, ProjectImage, TextBox } from "./layout";
+import jornalapp from "./assets/jornalapp.png";
+import barber from "./assets/berber.png";
+import topoleo from "./assets/topoleo.png";
+import bookstore from "./assets/bookstore.png";
+import fakebook from "./assets/fakebook.png";
+import battleship from "./assets/battleship.png";
 
 function Projects() {
   return (
@@ -60,10 +55,7 @@ function Projects() {
         </div>
       </ProjectHolder>
 */}
-      <ProjectHolder
-        currentColor="#ff5555"
-        className="sticky-top"
-      >
+      <ProjectHolder currentColor="#ff5555" className="sticky-top">
         <div>
           <ProjectTitle>
             <h2>Barber Booking</h2>
@@ -74,23 +66,16 @@ function Projects() {
           </ProjectImage>
           <TextBox>
             <span className="badge badge-light">React</span>
-            <span className="badge badge-light">
-              JavaScript
-            </span>
-            <span className="badge badge-light">
-              React-Redux
-            </span>
+            <span className="badge badge-light">JavaScript</span>
+            <span className="badge badge-light">React-Redux</span>
             <span className="badge badge-light">CSS</span>
             <span className="badge badge-light">Rails</span>
             <span className="badge badge-light">Rspec</span>
             <p>
-              This PWA (Progressive Web App), lets users
-              book a time and a date with a barber.
+              This PWA (Progressive Web App), lets users book a time and a date
+              with a barber.
             </p>
-            <p>
-              This project Back-end is Ruby and the frontend
-              is React.
-            </p>
+            <p>This project Back-end is Ruby and the frontend is React.</p>
             <a
               href="https://antoniobarberapi.herokuapp.com/"
               className="btn btn-outline-dark"
@@ -100,7 +85,7 @@ function Projects() {
               Check Live Demo
             </a>
             <a
-              href="https://github.com/trox115/booking"
+              href="https://github.com/trox115/Booking"
               className="btn btn-outline-dark"
               target="_blank"
               rel="noopener noreferrer"
@@ -111,10 +96,7 @@ function Projects() {
         </div>
       </ProjectHolder>
 
-      <ProjectHolder
-        currentColor="#8be9fd"
-        className="sticky-top"
-      >
+      <ProjectHolder currentColor="#8be9fd" className="sticky-top">
         <div>
           <ProjectTitle>
             <h2>Topoleo Simple Website</h2>
@@ -125,15 +107,12 @@ function Projects() {
           </ProjectImage>
           <TextBox>
             <span className="badge badge-light">React</span>
-            <span className="badge badge-light">
-              JavaScript
-            </span>
+            <span className="badge badge-light">JavaScript</span>
             <span className="badge badge-light">CSS</span>
             <span className="badge badge-light">HTML</span>
             <p>
-              This is a company PWA Website. The design was
-              based on a previous WordPress website that
-              they wish to maintain.
+              This is a company PWA Website. The design was based on a previous
+              WordPress website that they wish to maintain.
             </p>
 
             <a
@@ -156,10 +135,7 @@ function Projects() {
         </div>
       </ProjectHolder>
 
-      <ProjectHolder
-        currentColor="#ff5555"
-        className="sticky-top"
-      >
+      <ProjectHolder currentColor="#ff5555" className="sticky-top">
         <div>
           <ProjectTitle>
             <h2>BookStore CMS</h2>
@@ -170,23 +146,16 @@ function Projects() {
           </ProjectImage>
           <TextBox>
             <span className="badge badge-light">React</span>
-            <span className="badge badge-light">
-              React-Redux
-            </span>
-            <span className="badge badge-light">
-              JavaScript
-            </span>
+            <span className="badge badge-light">React-Redux</span>
+            <span className="badge badge-light">JavaScript</span>
             <span className="badge badge-light">Ruby</span>
             <span className="badge badge-light">Rails</span>
             <span className="badge badge-light">Rspec</span>
             <p>
-              This project is a bookstore CMS, user can add,
-              edit, or update reading progress of the books.
+              This project is a bookstore CMS, user can add, edit, or update
+              reading progress of the books.
             </p>
-            <p>
-              This project Back-end is Ruby and the frontend
-              is React.
-            </p>
+            <p>This project Back-end is Ruby and the frontend is React.</p>
             <a
               href="https://antonioreact-bookstore.herokuapp.com/"
               className="btn btn-outline-dark"
@@ -196,7 +165,7 @@ function Projects() {
               Check Live Demo
             </a>
             <a
-              href="https://github.com/trox115/bookstore"
+              href="https://github.com/trox115/Bookstore"
               className="btn btn-outline-dark"
               target="_blank"
               rel="noopener noreferrer"
@@ -206,10 +175,7 @@ function Projects() {
           </TextBox>
         </div>
       </ProjectHolder>
-      <ProjectHolder
-        currentColor="#8be9fd"
-        className="sticky-top"
-      >
+      <ProjectHolder currentColor="#8be9fd" className="sticky-top">
         <div>
           <ProjectTitle>
             <h2>FakeBook</h2>
@@ -226,14 +192,10 @@ function Projects() {
             <span className="badge badge-light">Rails</span>
             <span className="badge badge-light">Rspec</span>
             <p>
-              This project is a Facebook clone. Users can
-              ask and accept friendships, make comments, and
-              give likes.
+              This project is a Facebook clone. Users can ask and accept
+              friendships, make comments, and give likes.
             </p>
-            <p>
-              This project Back-end has been made with Ruby
-              on Rails.
-            </p>
+            <p>This project Back-end has been made with Ruby on Rails.</p>
             <a
               href="https://frozen-everglades-48914.herokuapp.com/"
               className="btn btn-outline-dark"
@@ -253,31 +215,21 @@ function Projects() {
           </TextBox>
         </div>
       </ProjectHolder>
-      <ProjectHolder
-        currentColor="#ff5555"
-        className="sticky-top"
-      >
+      <ProjectHolder currentColor="#ff5555" className="sticky-top">
         <div>
           <ProjectTitle>
             <h2>BattleShip</h2>
           </ProjectTitle>
 
           <ProjectImage>
-            <img
-              src={battleship}
-              alt="Battle Ship Project"
-            />
+            <img src={battleship} alt="Battle Ship Project" />
           </ProjectImage>
           <TextBox>
-            <span className="badge badge-light">
-              JavaScript
-            </span>
-            <span className="badge badge-light">
-              GitHub
-            </span>
+            <span className="badge badge-light">JavaScript</span>
+            <span className="badge badge-light">GitHub</span>
             <p>
-              This project is a BattleShip game, user can
-              play against the computer.
+              This project is a BattleShip game, user can play against the
+              computer.
             </p>
             <p>This project was made using JavaScript.</p>
             <a
